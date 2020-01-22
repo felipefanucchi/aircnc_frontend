@@ -7,11 +7,15 @@
 
 html, body, #root {
   min-height: 100%;
-  font-family: 'Roboto';
 }
 
 body {
   background: #000 url('./assets/images/background.jpg') no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  font-size: 14px;
+  font-family: 'Roboto';
 }
