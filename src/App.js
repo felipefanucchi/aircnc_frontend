@@ -6,7 +6,7 @@ import logo from "./assets/images/logo.png";
 function App() {
   return (
     <div className="container">
-      <img src={logo} alt="AirCnC" />
+      <img className="logo" src={logo} alt="AirCnC" />
 
       <div className="content">
         <p>
@@ -23,7 +23,7 @@ function App() {
             placeholder="Seu melhor e-mail" 
           />
 
-          <button type="submit">Entrar</button>
+          <button className="btn" type="submit">Entrar</button>
         </form>
       </div>
     </div>
